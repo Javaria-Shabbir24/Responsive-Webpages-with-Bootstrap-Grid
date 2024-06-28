@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>MyFirstProject</title>
+    <style>
+        .custom-column{
+            margin-right: 92.5px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Laravel Blog</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">My Account
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class= "divider"></li>
+                  <li><a class="dropdown-item" href="#">Separated link</a></li>
+                </ul>
+              </li>
+          </ul>
+        </div>
+      </nav>
+<div class="container">
+    <div class="jumbotron jumbotron-fluid">
+          <h1 class="display-4">Welcome to My Blog</h1>
+          <p class="lead">Thank you so much for visiting. This is my test website, built with Laravel. Please read my latest posts.</p>
+          <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#" role="button">Popular Post</a>
+          </p>
+      </div>
+    </div>
+
+    <div class="container">
+        
+        <div class="row col-md-12">
+            <div class="col-md-8 custom-column" style="background-color:rgb(235, 228, 229);" >
+            <h2>Post Title</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="#" role="button">Read More</a>
+              </p>
+        </div>
+          <div class="col-md-3" style="background-color:pink;">
+            <h2>SideBar</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            
+        </div>
+        </div>
+      </div>
+</body>
+</html>
